@@ -16,6 +16,11 @@ nano Dockerfile     # wrote Dockerfile with ubuntu + nginx
 
 <img width="1728" height="750" alt="image" src="https://github.com/user-attachments/assets/0947a731-4509-42db-92e3-9ed352d488d9" />
 
+Dockerfile
+
+<img width="741" height="661" alt="image" src="https://github.com/user-attachments/assets/ffff36f4-f547-461e-a983-58c0b187c733" />
+
+
 
 🐳 Build Docker Image
 
