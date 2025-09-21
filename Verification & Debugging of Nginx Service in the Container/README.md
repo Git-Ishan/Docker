@@ -1,4 +1,4 @@
-📂Project Setup
+<h3>📂Project Setup</h3>
 
 mkdir my-static-site
 
@@ -22,11 +22,11 @@ Dockerfile
 
 
 
-🐳 Build Docker Image
+<h3>🐳 Build Docker Image</h3>
 
 docker build -t static-ubuntu-nginx:latest .
 
-🚀 Run Container
+<h3>🚀 Run Container</h3>
 
 docker run -d --name site-ubuntu -p 8080:80 static-ubuntu-nginx:latest
 
@@ -34,13 +34,13 @@ docker ps --filter name=site-ubuntu
 
 <img width="1909" height="753" alt="image" src="https://github.com/user-attachments/assets/4e595e03-98a0-4932-9b84-2c1d3fb4119d" />
 
-🔍 Verify Nginx
+<h3>🔍 Verify Nginx</h3>
 
 docker exec -it site-ubuntu sh -c "command -v nginx; nginx -v"
 
 <img width="1458" height="365" alt="image" src="https://github.com/user-attachments/assets/4bc6ca5f-d414-4a14-b5a3-18317b5f4afa" />
 
-🌐 Open Website
+<h3>🌐 Open Website</h3>
 
 Visit in browser:
 
